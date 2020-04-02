@@ -11,7 +11,7 @@ This sample demonstrates how you can draw the ThinkGeo Cloud Vector Tiles in you
 
 ThinkGeo Cloud Vector Maps works perfectly on both low and high resolution (4k) monitors. It would work in all of the Map Suite controls such as Wpf, WebApi and Mobile. Check out https://maps.thinkgeo.com/ and get an idea what it looks on Web.
 
-Even this sample is built in .NET Framework 4.6.1, the component supports the latest .NET Core 3.1 without any issues. You can easily change this sample to a .NET Core application with just a few changes. 
+Even this sample is built in .NET Framework 4.6.1, the component supports the latest .NET Core 3.1 without any issues. You can easily change this sample to a .NET Core application with just a few modifications. 
 
 ![Screenshot](https://github.com/ThinkGeo/ThinkGeoCloudVectorMapsSample-ForWpf12/blob/master/Screenshot.gif)
 
@@ -23,8 +23,7 @@ This sample makes use of the following NuGet Packages
 ### About the Code
 ```csharp
  this.wpfMap.MapUnit = GeographyUnit.Meter;
- this.wpfMap.ZoomLevelSet = ThinkGeoCloudVectorMapsOverlay.GetZoomLevelSet();
-
+ 
  // Create background world map with vector tile requested from ThinkGeo Cloud Service. 
  ThinkGeoCloudVectorMapsOverlay thinkGeoCloudVectorMapsOverlay = new ThinkGeoCloudVectorMapsOverlay(thinkGeoCloudId, thinkGeoCloudSecret, thinkGeoCloudVectorMapsMapType);
 mapView.Overlays.Add(thinkGeoCloudVectorMapsOverlay);
