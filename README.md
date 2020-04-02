@@ -2,7 +2,7 @@
 
 ### Description
 
-This sample demonstrates how you can draw the ThinkGeo Cloud Vector Tiles in your map applications, with any style you want from [StyleJSON (Mapping Definition Grammar)](https://wiki.thinkgeo.com/wiki/thinkgeo_stylejson).  It supports 3 built-in default map styles as well as custom ones.  
+This sample demonstrates how to use the latest ThinkGeo Cloud Vector Tiles in your desktp (wpf) applications, with any style you want from [StyleJSON (Mapping Definition Grammar)](https://wiki.thinkgeo.com/wiki/thinkgeo_stylejson).  It supports 3 built-in default map styles as well as custom ones.  
 
 - Light
 - Dark
