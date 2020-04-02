@@ -27,8 +27,8 @@ namespace DisplayThinkGeoCloudVectorMaps
         {
             mapView.MapUnit = GeographyUnit.Meter;
 
-            // Dallas World Extent
-            mapView.CurrentExtent = new RectangleShape(-11743543.11284, 4570719.214107275, -9821977.382048659, 3195097.3111069556);
+            // Extent of Noth America.
+            mapView.CurrentExtent = new RectangleShape(-15407788.516507, 9364905.50919103, -5545577.43383047, 2232413.56546961);
 
             styleCmb.Items.Add(new ComboBoxItem() { Content = "Light" });
             styleCmb.Items.Add(new ComboBoxItem() { Content = "Dark" });
