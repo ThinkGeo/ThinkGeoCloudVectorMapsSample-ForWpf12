@@ -2,7 +2,9 @@
 
 ### Description
 
-This sample demonstrates how to use the latest ThinkGeo Cloud Vector Tiles in your desktp (wpf) applications, with any style you want from [StyleJSON (Mapping Definition Grammar)](https://wiki.thinkgeo.com/wiki/thinkgeo_stylejson).  It supports 3 built-in default map styles as well as custom ones.  
+This sample demonstrates how to use ThinkGeo Cloud Vector Tiles in your desktp (wpf) applications, check out [this sample](https://github.com/ThinkGeo/ThinkGeoOfflineMapsViewerAndExtractor-ForWpf12) to see how to get the ThinkGeo offline map. 
+
+This sample supports 3 built-in default map styles as well as custom ones. Check out [ThinkGeo StyleJSON](https://wiki.thinkgeo.com/wiki/thinkgeo_stylejson) to get an idea how to create a custom style. 
 
 - Light
 - Dark
