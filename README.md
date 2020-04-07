@@ -17,11 +17,6 @@ Even this sample is built on .NET Framework 4.6.1, the component supports the la
 
 ![Screenshot](https://github.com/ThinkGeo/ThinkGeoCloudVectorMapsSample-ForWpf12/blob/master/Screenshot.gif)
 
-### Requirements
-This sample makes use of the following NuGet Packages
-
-[ThinkGeo.UI.Wpf 13.0.0-beta068](https://www.nuget.org/packages/ThinkGeo.UI.Wpf/13.0.0-beta068)
-
 ### About the Code
 ```csharp
  this.wpfMap.MapUnit = GeographyUnit.Meter;
